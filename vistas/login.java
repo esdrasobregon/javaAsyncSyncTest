@@ -222,7 +222,7 @@ public class login extends javax.swing.JFrame {
         System.out.println("prueba syncrona");
         int number = 20;
         try {
-            Thread.sleep(2000);
+            Thread.sleep(20000);
             System.out.println("Factorial of " + number + " is: " + factorial(number));
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
